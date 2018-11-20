@@ -1,0 +1,29 @@
+************* EParray[ 1 ]: TestFile *********
+1             Aantal tijdsonafhankelijke tabellen: (=xInDep)
+0             ***table 0: table-type 0 (no interpolation) 
+1 1           UITVOERTIJDSTIPPEN
+0 2 3 4 5
+6             Aantal tijdsafhankelijk (xy)-tabellen (=xDep)******************
+0             table 0: table-type 0 (no interpolation)
+1             GHG (m-mv)
+0 0.25
+0             table 1: table-type 0 (no interpolation)
+1             Gewas (1-4); 1=mais; 2=akkerbouw; 3=natuur; 4=gras
+0 1
+0             table 2: table-type 0 (no interpolation)
+1             Bodemtype (1-21); zie 'voorbeeld.xls'
+0 8
+0             table 3: table-type 0 (no interpolation)
+1             Flux op 7 m-mv; kwel is positief; infiltratie is negatief (m/jaar)
+0 -0.3195
+0             table 4: table-type 0 (no interpolation)
+5             N-overschot (kg N/ha/jaar)
+0 243.9
+1  90
+2  80
+3  70
+4  60
+0             table 5: table-type 0 (no interpolation)
+1             N-conc. in kwel op 7 m-mv (mg N/l)
+0 1.0        
+              REM: point- of line-sources niet aan de orde bij stikstof-uitspoeling!

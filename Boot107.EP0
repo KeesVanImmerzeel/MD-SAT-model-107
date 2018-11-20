@@ -1,0 +1,63 @@
+************* EParray[ cEP0 ]: DefaultBootFile *********************************
+6              Aantal tijdsonafhankelijke tabellen: == 2! (=xInDep)
+0             ***table 0: table-type 0 (no interpolation) 
+20  1         ***table 0: cNr_TINTode_Create_Settings (rows). 1 columns
+1             1:  IAlgRout      Algorithm-routine for integration
+1             2:  IStepRout     Stepper-routine for integration
+0             3:  IDCRoot       Functie voor het insluiten van een discontinuiteit
+0             4:  IDCStepRout   Stepper-routine voor modellen met discontinuiteiten
+1             5:  IDriver       Driver-routine for integration
+1             6:  I_nsubstep    Aantal sub-stappen in sommige algorithme-routines
+1             7:  I_nstep       Aantal sub-stappen in sommige stepper-routines
+1000          8:  I_maxstp      Max. aantal stappen idem
+2             9:  I_htry        Initiele stapgrootte
+0.01          10: I_hmin        Minimale stapgrootte
+0.01          11: I_eps         Tolerantie
+0             12: cModelID               * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0             13: ReadyToRun             * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0             14: cNrOfRPs               * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0             15: cNrOfSQRQs             * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0             16: cNrOfAvSpeedsToExport  *  WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+1             17: Area: wordt in Shell-omgeving vervangen door Shell-waarde
+0             18: Current_xs             * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0             19: nDC                    * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0             20: GERESERVEERD
+0             ***table 1: table-type 0 (no interpolation) 
+1  11         ***table 1: NrOfDepVar (rows). cNrOfDepVarOptions columns;  
+0   5 0 0 0 0    4.428571 1 1 1 1 ystart[ 1 ]; Concentratie (mg NO3/l)
+0             ***table 2: table-type 0 (no interpolation) 
+1 12          ***table 2: rows. columns; Min/max values of key-values
+-1.0 100 1 4 1 21 -1.5 1.5 0 1000 0 500 GHG. Gewas. Bodemtype. kwel/inf 7 m-mv. N-overschot. N-conc. in kwel op 7 m-mv
+0             ***table 3: table-type 0 (no interpolation)
+1 8           ***table 3: p. 24: labda. c. c_Nover. c_GHG. c_Nkwel. c_kwwz7. c_Nover_kwwz7. c_GHG_kwwz7
+-1.35 -7.18E-01 3.34E-03 -1.64E+00 -3.95E-03 1.10E-04 -1.47E-06 -1.46E-03
+0             ***table 4: table-type 0 (no interpolation)
+4 3           ***table 4: c_gewas. c_Nover_gewas. c_GHG_gewas (p. 24)
+ 6.59E-01 -1.89E-03	3.94E-01 Mais	
+-3.67E-01  9.85E-04	3.57E-01 Bouwland
+-8.04E-01 -7.29E-02	6.60E-01 Natuur	
+ 0.00E+00  0.00E+00	0.00E+00 Gras	
+0             ***table 5: table-type 0 (no interpolation)
+21 7          ***table 5: p. 24: c_bodem	c_Nover_bodem	c_GHG_bodem	c_bodem_gewas[ mais. akkerbouw. natuur. gras ]
+2.20E+00 -1.35E-03 -1.75E+00 -1.31E+00 -7.49E-01  3.27E-02 0.00E+00  1   Veengronden met een veraarde bovengrond
+2.95E+00 -5.08E-04 -1.75E+00 -5.31E-01  2.30E-01  3.44E-01 0.00E+00  2   Idem en zand in de ondergrond
+1.43E+00 -1.72E-03 -1.32E+00 -1.51E+00 -9.47E-01 -7.24E-02 0.00E+00  3   Veengronden met een kleidek
+2.39E+00 -2.30E-03 -1.90E+00 -3.06E+00 -6.10E-01  2.05E-01 0.00E+00  4   Idem en zand in de ondergrond
+3.05E+00 -2.43E-04 -2.00E+00 -4.37E-01  5.40E-01  4.69E-01 0.00E+00  5   Veengronden met een zanddek en zand in de ondergrond
+1.86E+00  7.39E-04 -7.90E-01 -8.55E-01  5.80E-01  2.32E-01 0.00E+00  6   Veengronden en moerige gronden op ongerijpte klei
+1.73E+00  8.27E-04 -1.33E-01 -1.22E-01  6.30E-01  5.55E-01 0.00E+00  7   Stuifzandgronden
+1.34E+00  2.10E-03  4.62E-01 -1.84E-01  6.42E-01  3.04E-01 0.00E+00  8   Podzolgronden in leemarm. fijn zand
+1.86E+00  2.49E-03 -4.52E-01 -3.87E-01  5.68E-01  6.90E-02 0.00E+00  9   Idem in zwak lemig. fijn zand
+2.81E+00  1.85E-03 -1.42E+00 -5.72E-01  4.23E-01 -2.56E-01 0.00E+00  10  Idem op grof zand
+1.94E+00  1.77E-03 -1.44E+00 -4.90E-01  5.26E-01  7.09E-02 0.00E+00  11  Podzolgronden sterk lemig. fijn zand op keileem of leem
+1.95E+00  1.88E-03 -6.18E-01 -4.28E-01  5.79E-01  5.33E-01 0.00E+00  12  Enkeerdgronden in zwak lemig. fijn zand
+1.94E+00  2.99E-03 -6.32E-01 -4.63E-01  5.23E-01 -2.04E-01 0.00E+00  13  Beekeerdgronden in sterk lemig. fijn zand
+5.13E+00  7.02E-04 -5.63E+00  9.46E-02  1.28E+00  0.00E+00 0.00E+00  14  Podzolgronden in grof zand
+1.08E+00  1.52E-03 -7.92E-01 -4.30E-01  4.13E-01  6.15E-02 0.00E+00  15  Homogene zavelgronden
+1.25E+00  1.85E-03 -9.51E-01 -4.26E-01  4.58E-01  1.32E-02 0.00E+00  16  Homogene. lichte kleigronden
+1.73E+00  2.39E-03 -1.45E+00 -1.99E-01  6.12E-01  1.56E-01 0.00E+00  17  Kleigronden met een zware tussenlaag of ondergrond
+7.50E-01 -4.33E-04 -4.03E-01 -6.06E-01  2.20E-01 -4.74E-02 0.00E+00  18  Kleigronden op veen
+1.59E+00  1.27E-03 -7.80E-01 -4.17E-01  3.94E-01 -1.35E-01 0.00E+00  19  Klei op zandgronden
+1.90E+00  4.89E-04 -1.36E+00 -1.11E-01  7.91E-01  6.08E-02 0.00E+00  20  Klei op grof zand
+0.00E+00  0.00E+00  0.00E+00  0.00E+00  0.00E+00  0.00E+00 0.00E+00  21  Leemgronden
+0             Aantal tijdsafhankelijk (xy)-tabellen **********************************
